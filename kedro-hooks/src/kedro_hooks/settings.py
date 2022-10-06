@@ -18,8 +18,9 @@ HOOKS = (WebAPICallingHook(),)
 # }
 
 # Class that manages Kedro's library components.
-from kedro.framework.context import KedroContext
-CONTEXT_CLASS = KedroContext
+
+# from kedro.framework.context import KedroContext
+# CONTEXT_CLASS = KedroContext
 
 # Directory that holds configuration.
 # CONF_SOURCE = "conf"
